@@ -5,3 +5,16 @@
  *= require_self
  *= require_tree . 
 */
+
+/* START_PRODUCT_HIGHLIGHT */
+
+  .list_line_odd {
+    background-color: #eff;
+  }
+
+  .list_line_even {
+    background-color: #ffe;
+  }
+
+
+/* END_PRODUCT_HIGHLIGHT */
