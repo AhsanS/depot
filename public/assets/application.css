@@ -1,1 +1,186 @@
-.list_line_odd{background-color:#eff}.list_line_even{background-color:#ffe}.products table{border-collapse:collapse}.products table tr td{padding:5px;vertical-align:top}.products .list_image{width:60px;height:70px}.products .list_description{width:60%}.products .list_description dl{margin:0}.products .list_description dt{color:#244;font-weight:bold;font-size:larger}.products .list_description dd{margin:0}.products .list_actions{font-size:x-small;text-align:right;padding-left:1em}.products .list_line_odd{background-color:#eff}.products .list_line_even{background-color:#ffe}body{background-color:#fff;color:#333;font-family:verdana, arial, helvetica, sans-serif;font-size:13px;line-height:18px}p,ol,ul,td{font-family:verdana, arial, helvetica, sans-serif;font-size:13px;line-height:18px}pre{background-color:#eee;padding:10px;font-size:11px}a{color:#000}a:visited{color:#666}a:hover{color:#fff;background-color:#000}div.field,div.actions{margin-bottom:10px}#notice{color:green}.field_with_errors{padding:2px;background-color:red;display:table}#error_explanation{width:450px;border:2px solid red;padding:7px;padding-bottom:0;margin-bottom:20px;background-color:#f0f0f0}#error_explanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:12px;margin:-7px;margin-bottom:0px;background-color:#c00;color:#fff}#error_explanation ul li{font-size:12px;list-style:square}
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+
+
+*/
+
+/* START_HIGHLIGHT */
+/* line 9, ../../app/assets/stylesheets/products.css.scss */
+.products table {
+  border-collapse: collapse;
+}
+/* line 13, ../../app/assets/stylesheets/products.css.scss */
+.products table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 18, ../../app/assets/stylesheets/products.css.scss */
+.products .list_image {
+  width: 60px;
+  height: 70px;
+}
+/* line 23, ../../app/assets/stylesheets/products.css.scss */
+.products .list_description {
+  width: 60%;
+}
+/* line 25, ../../app/assets/stylesheets/products.css.scss */
+.products .list_description dl {
+  margin: 0;
+}
+/* line 29, ../../app/assets/stylesheets/products.css.scss */
+.products .list_description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+/* line 35, ../../app/assets/stylesheets/products.css.scss */
+.products .list_description dd {
+  margin: 0;
+}
+/* line 40, ../../app/assets/stylesheets/products.css.scss */
+.products .list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+/* line 46, ../../app/assets/stylesheets/products.css.scss */
+.products .list_line_odd {
+  background-color: #eff;
+}
+/* line 50, ../../app/assets/stylesheets/products.css.scss */
+.products .list_line_even {
+  background-color: #ffe;
+}
+
+/* END_HIGHLIGHT */
+/* line 1, ../../app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 8, ../../app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 13, ../../app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 18, ../../app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 20, ../../app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 22, ../../app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 27, ../../app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 30, ../../app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 33, ../../app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 38, ../../app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 45, ../../app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 54, ../../app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* START_HIGHLIGHT */
+/* line 7, ../../app/assets/stylesheets/store.css.scss */
+.store {
+  /* An entry in the store catalog */
+}
+/* line 8, ../../app/assets/stylesheets/store.css.scss */
+.store h1 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font: 150% sans-serif;
+  color: #226;
+  border-bottom: 3px dotted #77d;
+}
+/* line 17, ../../app/assets/stylesheets/store.css.scss */
+.store .entry {
+  overflow: auto;
+  margin-top: 1em;
+  border-bottom: 1px dotted #77d;
+  min-height: 100px;
+}
+/* line 23, ../../app/assets/stylesheets/store.css.scss */
+.store .entry img {
+  width: 80px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: absolute;
+}
+/* line 30, ../../app/assets/stylesheets/store.css.scss */
+.store .entry h3 {
+  font-size: 120%;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #227;
+}
+/* line 39, ../../app/assets/stylesheets/store.css.scss */
+.store .entry p, .store .entry div.price_line {
+  margin-left: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+/* line 45, ../../app/assets/stylesheets/store.css.scss */
+.store .entry .price {
+  color: #44a;
+  font-weight: bold;
+  margin-right: 3em;
+}
+
+/* END_HIGHLIGHT */
