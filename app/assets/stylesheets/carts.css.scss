@@ -3,9 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* START_HIGHLIGHT */
-.carts {
+.carts, #side #cart{
   .cart_title {
-    font: 120% bold;
+    font: 125% bold;
+    color: yellow;
+  }
+
+  .lineItem {
+	color: beige;
   }
 
   .item_price, .total_line {
@@ -15,6 +20,7 @@
   .total_line .total_cell {
     font-weight: bold;
     border-top: 1px solid #595;
+    color: yellow;
   }
 }
 /* END_HIGHLIGHT */
