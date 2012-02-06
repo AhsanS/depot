@@ -42,4 +42,22 @@ Depot::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # Email Setup
+  config.action_mailer.delivery_method = :smtp # | :sendmail | :test
+  config.action_mailer.smtp_settings = {
+    address: "smtp.1and1.com",
+    port: 587,
+    domain: "sharafuddin.com",
+    authentication: "plain",
+    user_name: "ahsan@sharafuddin.com",
+    password: "hotmail1",
+    enable_starttls_auto: true
+  }
+  
+  # uncomment to disable email delivery in development mode
+  # Depot::Application.configure do
+  #   config.action_mailer.delivery_method = :test
+  # end
+  
 end
