@@ -7,6 +7,10 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 # encoding: utf-8
+
+User.delete_all
+User.create(name: 'admin', password: 'admin', password_confirmation: 'admin')
+# . . .
 Product.delete_all
 Product.create(title: 'CoffeeScript',
   description: 
