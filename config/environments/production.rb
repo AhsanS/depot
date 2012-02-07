@@ -58,6 +58,16 @@ Depot::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
   
+  # Email Setup
   config.action_mailer.delivery_method = :smtp # | :sendmail | :test
+  config.action_mailer.smtp_settings = {
+    address: "smtp.1and1.com",
+    port: 587,
+    domain: "sharafuddin.com",
+    authentication: "plain",
+    user_name: "ahsan@sharafuddin.com",
+    password: "hotmail1",
+    enable_starttls_auto: true
+  }
   
 end
